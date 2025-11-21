@@ -8,7 +8,7 @@ Note: This application saves all note data locally on your device's persistent s
 
 Offline First: All functionality works without an internet connection.
 
-Local Storage: Notes are stored directly on your device (using AsyncStorage, SQLite, or equivalent local persistence).
+Local Storage: Notes are stored directly on your device (AsyncStorage).
 
 Cross-Platform: Built for both iOS and Android using React Native.
 
@@ -34,7 +34,7 @@ Installation
 
 Clone the Repository:
 
-git clone YOUR_NEW_GITHUB_URL
+git clone https://github.com/atuljalu/Notes.git
 cd MyNotes
 
 
@@ -70,42 +70,6 @@ Run the app:
 npx react-native run-ios
 
 
-💾 Data Persistence
-
-This application uses Local Storage for data management.
-
-Aspect
-
-Detail
-
-Storage Location
-
-Local device storage (e.g., AsyncStorage).
-
-Security
-
-Data is stored unencrypted in the device's default persistence layer.
-
-Backup
-
-Notes are not automatically backed up or synced. If the app data is cleared or the device is lost, the notes may be permanently lost.
-
-Transfer
-
-There is currently no built-in feature to export or transfer notes between devices.
-
 🤝 Contributing
 
 Contributions are welcome! If you find a bug or have an idea for a feature, please feel free to open an issue or submit a pull request.
-
-Fork the repository.
-
-Create a new feature branch (git checkout -b feature/AmazingFeature).
-
-Commit your changes (git commit -m 'Add some AmazingFeature').
-
-Push to the branch (git push origin feature/AmazingFeature).
-
-Open a Pull Request.
-
-Created by atulj
